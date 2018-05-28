@@ -10,16 +10,16 @@ if($koneksi->connect_error){
 }
 
 // update stok_barang
-//set nama_barang = '{namaBarang}',
+//set nama_barang = '{namabarang}',
 //      stok = {stok}
 // where kode = {kode}
 $query = "update stok_barang" . 
-        " set nama_barang = '" . $_POST["namaBarang"] . "'," .
+        " set nama_barang = '" . $_POST["namabarang"] . "'," .
         "       stok = " . $_POST["stok"]. " " .
         "where kode = " . $_POST["kode"];
 echo $query;
 if($koneksi->query($query) === true){
-    echo "<br> Data " . $_POST["namaBarang"] . " berhasil diubah. ".
+    echo "<br> Data " . $_POST["namabarang"] . " berhasil diubah. ".
             ' <a href="main.php">Lihat Data</a>';
 } else {
     echo "<br> Data GAGAL disimpan";

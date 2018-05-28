@@ -3,7 +3,7 @@ class Koneksi {
     private $server = "localhost";
     private $username = "root"; //root
     private $password = ""; //""
-    private $db = "php_kelas_c";
+    private $db = "phb_kelas_c";
 
     function getKoneksi() {
         return new mysqli($this->server, $this->username,
