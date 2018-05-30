@@ -3,7 +3,7 @@ language: php
 env:
   global:
     - 'FTP_USER=wahyuningsihamalia'
-    - 'FTP_PASS=wahyuningsih'
+    - 'FTP_PASS=amalia123'
 
 script : 
   # script buat folder baru 
