@@ -2,7 +2,7 @@
 class Koneksi {
     private $server = "localhost";
     private $username = "id5881297_stok_barang"; //root
-    private $password = "amalia123"; //""
+    private $password = "12345"; //""
     private $db = "id5881297_stok_barang";
 
     function getKoneksi() {
