@@ -11,7 +11,6 @@ script :
   
   # script upload file *.php
 - "curl -T halo.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
-
 - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
 - "curl -T input.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
 - "curl -T simpan-baru.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
