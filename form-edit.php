@@ -14,7 +14,7 @@ $query = "select * from stok_barang where kode='" .
     $_GET["kode"] . "'";
 $data = $koneksi->query($query);
 if($data->num_rows <= 0){
-    echo "Mas/Mba, kalo isi data ssuai prosedur yah!";
+    echo "Mas/Mba, kalo isi data sesuai prosedur yah!";
     
 }else {
     while($row = $data->fetch_assoc()) {

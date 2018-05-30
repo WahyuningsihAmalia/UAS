@@ -5,15 +5,15 @@
     <table>
         <tr>
             <td>KODE </kd>
-            <td>: <input type="text" name="kode"></td>
+            <td>: <input type="text" name="KODE"></td>
         </tr>
         <tr>
-            <td>NAMA BARANG</td>
+            <td>NAMA_BARANG </td>
             <td>: <input type="text" name="namaBarang"></td>
         </tr>
         <tr>
             <td>STOK</td>
-            <td> : <input type="text" name="stok"></td>
+            <td> : <input type="text" name="Stok"></td>
         </tr>
     </table>
     <input type="submit" value="simpan">

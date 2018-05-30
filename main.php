@@ -31,7 +31,7 @@ if($data->num_rows <= 0){
 }else {
     while($row = $data->fetch_assoc()) {
         echo "<tr>";
-        echo "<td>" . $row["kode"] . "</td>";
+        echo "<td>" . $row["Kode"] . "</td>";
         echo "<td>" . $row["nama_barang"] . "</td>";
         echo "<td>" . $row["stok"] . "</td>";
         echo '<td><a href="form-edit.php?kode=' .
